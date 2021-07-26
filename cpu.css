@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    
+}
+
+
+.cinepixus {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+.cpuUppercurtain {
+    position: fixed;
+    display: flex;   
+    justify-content: center;   
+    width: 100%; 
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+.logoNameContainer {
+    display: flex;
+    position: relative;
+    top: 10rem;
+    transition-duration: 0.2s;
+}
+.cpuheading {
+    font-size: 70px;
+    color: rgb(216, 216, 216);
+    margin-left: 15px;
+    
+}
+.logo {
+    width: 48px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 0;
+}
+
+
+
+.cpuLowercurtain {
+    position: fixed;
+    margin-top: 50vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+    padding: 50px;
+}
+.productsContainer {
+    display: flex;
+    transition-duration: 0.2s;
+}
+.product {
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    transition-duration: 0.4s;  
+    padding: 0; 
+}
+.product:hover {
+    box-shadow:  0 2px 8px 0 rgba(0, 0, 0, 0.05), 1px 12px 18px 0 rgba(0, 0, 0, 0.16);
+    transform: scale3d(1.05, 1.05, 1.05);
+    cursor: pointer;
+    /* background-color: rgb(242, 224, 255); */
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+.productImage {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 15px;  
+    padding: 10px;
+}
+.productName {
+    margin-top: 10px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.takeLCDown {
+    transform: translateY(1000px);
+    transition-duration: 1.8s;
+}
+
+
+.sectionBox {
+    display: flex;
+    width: auto;
+    height: 100vw;
+    min-width: 1200px;
+}
+
+
+
+.boximage {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+
+.signin {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 25px;
+    border: 1px rgb(168, 168, 168) solid;
+    margin-top: 50px;
+    font-weight: 200;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+.signin:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    cursor: pointer;
+    box-shadow:  0 2px 8px 0 rgba(0, 0, 0, 0.01), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: rgb(242, 224, 255);
+    border: 0.5px rgb(65, 65, 65) solid;
+}
+h6 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    /* color: rgb(24, 24, 24); */
+    color: white;
+}
+h2  {
+    color: white;
+}
+
+
+.pixusdeskBox {
+    display: flex;
+    padding: 50px;
+    background: repeating-linear-gradient(rgb(0, 0, 0), indigo, rgb(255, 218, 193));
+    height: 150vh;
+    justify-content: center;
+}
+.pdIllus1 {
+    margin-top: 80px;
+    object-fit: contain;
+    transition-duration: 0.5s;
+    width: 700px;
+}
+.pixusdeskDescription {
+    margin-top: 160px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 25px;
+    border-radius: 30px; 
+    margin-left: 30px;
+}
+.pixusdeskDescription h1 {
+    font-weight: bold;
+}
+.pixusdeskDescription h2 {
+    margin-top: 10px;
+    font-weight: 700;
+}
+.pixusdeskSubDescription {
+    margin-top: 10px;
+    color: rgb(0, 255, 242);
+    font-weight: bold;
+}
+
+
+#moviePro {
+    height: 100vh;
+    background-image: -webkit-linear-gradient(black, rgb(1, 53, 59), rgb(1, 9, 58), black);
+}
+
+.foot {
+    width: auto;
+    height: 50px;
+    border-top: 1px rgb(185, 185, 185) solid;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+    color: lightgray;
+}
+
+

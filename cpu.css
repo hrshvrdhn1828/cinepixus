@@ -37,13 +37,12 @@
     
 }
 .logo {
-    width: 60px;
+    width: 50px;
     height: 80px;
     border-radius: 40px;
     margin: 5px;
     margin-right: 0;
 }
-
 
 
 .cpuLowercurtain {
@@ -152,12 +151,6 @@ h2  {
     background: repeating-linear-gradient(rgb(0, 0, 0), indigo, rgb(255, 218, 193));
     height: 150vh;
     justify-content: center;
-}
-.pdIllus1 {
-    margin-top: 80px;
-    object-fit: contain;
-    transition-duration: 0.5s;
-    width: 700px;
 }
 .pixusdeskDescription {
     margin-top: 160px;

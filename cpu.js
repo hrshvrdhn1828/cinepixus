@@ -5,6 +5,7 @@ var cpuHeading = document.getElementsByClassName("cpuheading");
 var logo = document.getElementsByClassName("logo");
 var productsContainer = document.getElementsByClassName("productsContainer");
 
+
 $(window).scroll(function scrollAnimation() {
     var scrolledUpLength =  $(window).scrollTop();
     console.log(scrolledUpLength);
@@ -19,6 +20,8 @@ $(window).scroll(function scrollAnimation() {
 
     }    
 });
+
+
 
 
 

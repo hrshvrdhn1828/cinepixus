@@ -145,10 +145,13 @@ h2  {
 
 
 .pixusdeskBox {
-    display: flex;
-    padding: 50px;
     background: repeating-linear-gradient(rgb(0, 0, 0), indigo, rgb(255, 218, 193));
     height: 150vh;
+    justify-content: center;
+}
+.ottPlatform {
+    display: flex;
+    padding: 50px;
     justify-content: center;
 }
 .pixusdeskDescription {
@@ -171,6 +174,11 @@ h2  {
     margin-top: 10px;
     color: rgb(0, 255, 242);
     font-weight: bold;
+}
+
+.socialNet {
+    display: flex;
+    justify-content: center;
 }
 
 

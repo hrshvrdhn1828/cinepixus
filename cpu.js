@@ -4,6 +4,8 @@ var logoNameContainer = document.getElementsByClassName("logoNameContainer");
 var cpuHeading = document.getElementsByClassName("cpuheading");
 var logo = document.getElementsByClassName("logo");
 var productsContainer = document.getElementsByClassName("productsContainer");
+var  socialNetDiv = document.getElementById("socialNetworking");
+
 
 // Noticing the scroll and creating animations accordingly
 $(window).scroll(function scrollAnimation() {
@@ -21,28 +23,14 @@ $(window).scroll(function scrollAnimation() {
         $(productsContainer).css("margin-top", String(3*scrolledUpLength));
     } 
     
-    if (scrolledUpLength >500) {
-        toggleVerticalPosition(GroundB);
-        toggleVerticalPosition(GroundA);
+    if (scrolledUpLength > 800) { 
+        $(socialNetDiv).css("opacity", "1");
+        $(socialNetDiv).css("margin-top", "100px");
     }
 });
 
-function driveUp(fig) {
-    var el = $("#" + fig);
-    $(el).css("transform", "translateY(-100)"); 
-    setTimeout(2000);
-    driveDown(fig);
-}
-function driveDown(fig) {
-    var el = $("#" + fig);
-    $(el).css("transform", "translateY(100)");
-    setTimeout(2000)
-    driveUp(fig)
-}
 
-function toggleVerticalPosition(figure) {
-    driveUp(figure); 
-}
+
 
 
 

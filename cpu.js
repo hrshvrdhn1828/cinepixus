@@ -19,9 +19,30 @@ $(window).scroll(function scrollAnimation() {
         
         // This moves down the products Container in which products are listed on lower curtain.
         $(productsContainer).css("margin-top", String(3*scrolledUpLength));
-    }    
+    } 
+    
+    if (scrolledUpLength >500) {
+        toggleVerticalPosition(GroundB);
+        toggleVerticalPosition(GroundA);
+    }
 });
 
+function driveUp(fig) {
+    var el = $("#" + fig);
+    $(el).css("transform", "translateY(-100)"); 
+    setTimeout(2000);
+    driveDown(fig);
+}
+function driveDown(fig) {
+    var el = $("#" + fig);
+    $(el).css("transform", "translateY(100)");
+    setTimeout(2000)
+    driveUp(fig)
+}
+
+function toggleVerticalPosition(figure) {
+    driveUp(figure); 
+}
 
 
 

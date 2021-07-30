@@ -11,9 +11,11 @@
 
 .cinepixus {
     width: 100%;
-    height: 20%;
+    height: 25%;
     justify-content: center;
+    background-color: black;
 }
+
 
 .cpuUppercurtain {
     position: fixed;
@@ -22,13 +24,12 @@
     width: 100%; 
     height: 50vh;
     min-height: 400px;
-    background-color: rgb(0, 0, 0);
-    
+    background-color: rgb(0, 0, 0); 
 }
 .logoNameContainer {
     display: flex;
     position: relative;
-    top: 28vh;
+    top: 5rem;
     transition-duration: 0.2s;
     height: 100px;
 }
@@ -55,7 +56,6 @@
     justify-content: center;
     background-color: rgb(29, 29, 29);
     padding: 50px;
-    min-height: 400px;
 }
 .productsContainer {
     display: flex;
@@ -184,14 +184,14 @@ h2  {
     justify-content: center;
 }
 .socialNetDescription {
-    min-width: 1700px;
-    height: 150px;
-    padding: 25px;
-    border-radius: 30px;
-    background-color: rgba(44, 44, 44, 0.3);
+    min-width: 1000px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(39, 39, 39, 0.38);
 }
 .socialNetDescription h1 {
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
     color: rgb(247, 247, 247)
@@ -213,4 +213,9 @@ h2  {
     color: lightgray;
 }
 
-
+.moveUp {
+    transform: translateY(-100);
+}
+.moveDown {
+    transform: translateY(100);
+}
